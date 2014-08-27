@@ -7,4 +7,7 @@ Or move **volume** to **/usr/bin**<br>
 
 ## Usage
 Set volume to 10% `volume 10%`<br>
-Set volume to max `volume 110%`
+Set volume to 100% (max) `volume 110%`
+Set volume to max `volume max`
+Set volume to min `volume min`
+
