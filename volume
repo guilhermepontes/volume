@@ -8,4 +8,3 @@ esac)
 
 echo -e " \e[95m➜  \e[0m\e[1mVolume is now at \e[97m\e[104m$volume\e[0m."
 amixer sset 'Master' $volume > /dev/null
-
