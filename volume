@@ -1,9 +1,10 @@
 #!/bin/bash
 
 volume=$(case $1 in
-  "max") echo "110%";;
-  "min") echo "0%"  ;;
-  *)     echo $1    ;;
+  "max")  echo "110%";;
+  "min")  echo "0%"  ;;
+  "mute") echo "0%"  ;;
+  *)      echo $1    ;;
 esac)
 
 echo -e " \e[95m➜  \e[0m\e[1mVolume is now at \e[97m\e[104m$volume\e[0m."
